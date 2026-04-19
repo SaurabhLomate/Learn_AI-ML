@@ -1,0 +1,66 @@
+# --- Data ---
+# Never track raw data or large processed files
+data/
+*.json
+*.h5
+*.npy
+*.parquet
+*.zip
+*.tar.gz
+
+# --- Environments & Dependencies ---
+# Virtual environments
+.env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Conda environments
+.conda/
+
+# --- Jupyter Notebooks ---
+# Ignore checkpoint files (autosaves)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Models & Heavy Outputs ---
+# Trained model binaries
+models/
+*.pkl
+*.joblib
+*.pb
+*.onnx
+
+# --- Logs & Performance ---
+mlruns/
+lightning_logs/
+logs/
+*.log
+.tensorboard/
+
+# --- Operating System & IDEs ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.spyderproject
+.pydevproject
+
+# --- Environment Variables (Secrets) ---
+.env
+secrets.json
+
+# some other files
+
+data_science_venv
+Phase_1
+practice
